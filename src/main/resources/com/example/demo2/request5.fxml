@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.demo2.Request5Controller">
+    <Label text="Введите название ПО" />
+    <TextField fx:id="licenseNameField" promptText="Название ПО" />
+    <Label text="Введите дату покупки видеокарты (YYYY-MM-DD)" />
+    <TextField fx:id="purchaseDateField" promptText="Дата покупки" />
+    <Button text="Выполнить запрос" onAction="#executeRequest" />
+</VBox>

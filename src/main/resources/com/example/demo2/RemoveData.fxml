@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import com.example.demo2.RemoveDataController?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" spacing="10" alignment="CENTER" style="-fx-padding: 20;" fx:controller="com.example.demo2.RemoveDataController">
+    <Label text="Введите ID объекта для удаления:"/>
+    <TextField fx:id="idField" promptText="ID"/>
+    <HBox spacing="10">
+        <Button fx:id="deleteButton" text="Удалить"/>
+        <Button fx:id="cancelButton" text="Отмена"/>
+    </HBox>
+</VBox>
